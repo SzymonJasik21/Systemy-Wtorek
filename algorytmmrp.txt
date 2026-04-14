@@ -1,0 +1,7 @@
+Program sprawdza dzień po dniu, czy to, co masz na półce, wystarczy na realizację zamówienia, a jeśli widzi, że zabraknie towaru,
+ oblicza dokładnie ile sztuk musisz dorobić, biorąc pod uwagę minimalne wielkości partii, żeby nie uruchamiać maszyn dla jednej śrubki. 
+ Najsprytniejsze jest to, że program działa jak domino: gdy wyliczy, że składanie rowerów musi ruszyć w poniedziałek, 
+ to automatycznie wysyła sygnał do działu produkcji kół, że te koła muszą być gotowedokładnie na ten poniedziałek. Cały 
+ proces powtarza się rekurencyjnie dla każdej najmniejszej części,aż powstanie kompletny harmonogram. Na samym końcu dostajesz
+gotową rozpiskę, która czarno na białym pokazuje Ci, w który dzień musisz się wziac w garść i zacząć konkretną robotę, 
+żeby ze wszystkim wyrobić się na czas przed wizytą klienta.
