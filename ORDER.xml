@@ -1,0 +1,29 @@
+<OrderResponse>
+    <ResponseHeader>
+        <ResponseNumber>POTW/2026/05/001</ResponseNumber>
+        <ResponseDate>2026-05-18</ResponseDate>
+        <RelatedOrderNumber>ZAM/2026/05/001</RelatedOrderNumber>
+        <ResponseType>Accepted</ResponseType>
+    </ResponseHeader>
+    <ResponseParties>
+        <Buyer>
+            <ILN>5901234567890</ILN>
+            <Name>Szymon Jasik </Name>
+        </Buyer>
+        <Seller>
+            <ILN>5909876543210</ILN>
+            <Name>Mikołaj Chyliński</Name>
+        </Seller>
+    </ResponseParties>
+    <ResponseLines>
+        <Line>
+            <LineNumber>1</LineNumber>
+            <EAN>5900001234567</EAN>
+            <ItemDescription>Element plastikowy - Twardosc 70 ShA</ItemDescription>
+            <AcceptedQuantity>500</AcceptedQuantity>
+            <UnitOfMeasure>PCE</UnitOfMeasure>
+            <UnitPrice>12.50</UnitPrice>
+            <DeliveryDate>2026-05-22</DeliveryDate>
+        </Line>
+    </ResponseLines>
+</OrderResponse>
